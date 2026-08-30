@@ -19,7 +19,7 @@ The analysis compares **investor** and **owner-occupant** purchases and examines
 ---
 ## Dashboard Preview
 
-![Memphis Investor Market Analysis Dashboard](dashboard/dashboard.png)
+![Memphis Investor Market Analysis Dashboard](screenshots/dashboard.png)
 
 The dashboard summarizes investor activity, purchase volume, average purchase price, and average price per square foot across selected Memphis ZIP codes.
 ---
