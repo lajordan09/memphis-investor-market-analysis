@@ -23,7 +23,27 @@ The analysis compares **investor** and **owner-occupant** purchases and examines
 
 The dashboard summarizes investor activity, purchase volume, average purchase price, and average price per square foot across selected Memphis ZIP codes.
 ---
+## 🗄️ SQL Analysis
 
+### Investor Activity by ZIP Code
+
+To extend the Excel-based analysis, I loaded the synthetic real estate transaction dataset into SQLite and used SQL to evaluate investor purchasing activity across ZIP codes.
+
+The query calculates:
+
+- Total transactions by ZIP code
+- Number of investor purchases
+- Investor share of transactions
+- Ranking of ZIP codes by investor activity
+
+![SQL Investor Activity by ZIP Code](screenshots/sql_investor_activity_by_zip.png)
+
+**Key Finding:** ZIP Code 38127 had the highest investor activity, with 19 investor purchases out of 20 transactions, representing 95% investor share in the synthetic dataset. ZIP Code 38115 followed with 17 investor purchases and an 85% investor share.
+
+**Business Relevance:** High investor concentration within a ZIP code may indicate an area worth further investigation for investor-focused prospecting, acquisition analysis, and market research. Additional data would be needed to determine whether this pattern reflects broader market conditions.
+
+**Tools:** SQLite | SQL | GitHub
+---
 ## Business Objective
 
 The objective of this project is to demonstrate how residential transaction data can be transformed into useful market intelligence for real estate professionals and investors.
