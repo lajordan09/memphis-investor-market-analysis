@@ -42,8 +42,11 @@ The query calculates:
 
 **Business Relevance:** High investor concentration within a ZIP code may indicate an area worth further investigation for investor-focused prospecting, acquisition analysis, and market research. Additional data would be needed to determine whether this pattern reflects broader market conditions.
 
-**Tools:** SQLite | SQL | GitHub
+Tools: 
+- SQLite
+- SQL
 ---
+
 ## Business Objective
 
 The objective of this project is to demonstrate how residential transaction data can be transformed into useful market intelligence for real estate professionals and investors.
