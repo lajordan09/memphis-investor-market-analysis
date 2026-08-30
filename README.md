@@ -17,6 +17,12 @@ This project explores the following business question:
 The analysis compares **investor** and **owner-occupant** purchases and examines differences in purchase volume, pricing, property size, bedrooms, year built, and price per square foot.
 
 ---
+## Dashboard Preview
+
+![Memphis Investor Market Analysis Dashboard](dashboard/dashboard.png)
+
+The dashboard summarizes investor activity, purchase volume, average purchase price, and average price per square foot across selected Memphis ZIP codes.
+---
 
 ## Business Objective
 
@@ -75,7 +81,18 @@ Transactions are categorized as:
 
 - **Investor**
 - **Owner Occupant**
+---
+## Analysis
 
+### Investor vs. Owner-Occupant Purchases
+
+![Investor vs Owner Occupant Purchases](screenshots/investor_vs_owner_zip.png)
+
+This analysis compares investor and owner-occupant transaction volume across selected Memphis ZIP codes.
+
+### Key Finding
+
+In the synthetic sample, ZIP Code 38127 had the highest investor purchase volume, with 19 transactions.
 ---
 
 ## Data Disclaimer
@@ -425,11 +442,12 @@ memphis-investor-market-analysis/
 └── screenshots/
     └── dashboard.png
 ```
+---
 # Author
 
 **LaQuita Jordan**
 
-Data Analytics Graduate Student
+Data Analytics Graduate Student |
 Residential Real Estate Professional
 Trelora Realty | Home Boss Team
 Memphis, Tennessee
