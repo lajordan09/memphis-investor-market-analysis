@@ -449,21 +449,21 @@ The project also provides a foundation for moving from **descriptive analytics**
 memphis-investor-market-analysis/
 │
 ├── README.md
+├── LICENSE
 │
 ├── data/
-│   └── Memphis_Investor_Data.csv
+│   └── Memphis_investor_dataset.xlsx
 │
-├── excel/
-│   └── Memphis_Investor_Data.xlsx
+├── sql/
+│   ├── investor_activity_by_zip.sql
 │
-├── dashboard/
-│   └── Memphis_Investor_Dashboard.png
+├── screenshots/
+│   ├── dashboard.png
+│   ├── investor_vs_owner_zip.png
+│   └── sql_investor_activity_by_zip.png
 │
-├── documentation/
-│   └── methodology.md
-│
-└── screenshots/
-    └── dashboard.png
+└── excel/
+    └── Memphis_Investor_Data.xlsx
 ```
 ---
 # Author
